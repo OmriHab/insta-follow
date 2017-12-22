@@ -1,0 +1,45 @@
+1513861917461	geckodriver	INFO	geckodriver 0.19.1
+1513861917473	geckodriver	INFO	Listening on 127.0.0.1:47260
+1513861918748	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PrehviMmGCMs"
+1513861930049	Marionette	INFO	Enabled via --marionette
+1513861939595	Marionette	INFO	Listening on port 38059
+1513861939847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513861939950	Marionette	DEBUG	Register listener.js for window 2147483649
+1513861940111	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513861941770	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513861941770	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513861942664	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.instagram.com/challenge/348812606/bACn46X9ZG/"
+1513861943607	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.instagram.com/challenge/348812606/bACn46X9ZG/"
+1513861943946	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1513862707090	geckodriver	INFO	geckodriver 0.19.1
+1513862707133	geckodriver	INFO	Listening on 127.0.0.1:44678
+1513862708598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZFEQoGX8TOA6"
+1513862721118	Marionette	INFO	Enabled via --marionette
+1513862732480	Marionette	INFO	Listening on port 40243
+1513862732504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513862732578	Marionette	DEBUG	Register listener.js for window 2147483649
+1513862732822	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513862734149	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513862734149	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513862736452	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.instagram.com/challenge/348812606/NDbWYBKHZO/"
+1513862741813	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.instagram.com/challenge/348812606/NDbWYBKHZO/"
+1513862742125	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 20744, Chrome_ChildThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20744, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20744, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20744, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513879136171	geckodriver	INFO	geckodriver 0.19.1
+1513879136208	geckodriver	INFO	Listening on 127.0.0.1:48041
+1513879137461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EtFcAmQmBar5"
+1513879139221	Marionette	INFO	Enabled via --marionette
+1513879144440	Marionette	INFO	Listening on port 42721
+1513879144489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513879144590	Marionette	DEBUG	Register listener.js for window 2147483649
+1513879144772	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513879145448	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513879145449	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513879146237	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.instagram.com/challenge/348812606/w3dcAxLIlK/"
+1513879146901	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.instagram.com/challenge/348812606/w3dcAxLIlK/"
+1513879147194	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 27315, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
