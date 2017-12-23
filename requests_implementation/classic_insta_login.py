@@ -4,8 +4,8 @@ import random
 
 header = {'Origin': 'https://www.instagram.com', 'Connection': 'keep-alive', 'Host': 'www.instagram.com', 'Accept-Language': 'en-US,en;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'X-Instagram-AJAX': '1', 'Referer': 'https://www.instagram.com/', 'X-Requested-With': 'XMLHttpRequest', 'Content-Length': '0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36'}
 cookies = {'sessionid': '', 'mid': '', 'ig_pr': '1', 'ig_vw': '1920', 'csrftoken': '', 's_network': '', 'ds_user_id': ''}
-user='omri.habibi@gmail.com'
-password='omri11'
+user='omri.habibi@gmail.com'    # Change to email
+password='******'   # Change this to real password
 
 session = requests.Session()
 session.cookies.update(cookies)
