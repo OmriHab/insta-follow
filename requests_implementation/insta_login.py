@@ -84,16 +84,38 @@ def follow_user(session, user_to_follow):
     if session is not None:
     	# Follow user
         followUser = session.post('https://www.instagram.com/web/friendships/' + getFollowId(session, user_to_follow) + '/follow/')
-        print followUser.status_code
-        print followUser.content
+        if followUser.status_code != 200:
+            print "failed to follow " + user_to_follow + " :("
+        elif followUser.json()['result'] == 'following':
+            print user_to_follow + " followed!"
+        else:
+            print "failed to follow " + user_to_follow + " :("
 
 def unfollow_user(session, user_to_unfollow):
     if session is not None:
         # Unfollow user
         unFollowUser = session.post('https://www.instagram.com/web/friendships/' + getFollowId(session, user_to_unfollow) + '/unfollow/')
-        print unFollowUser.status_code
-        print unFollowUser.content
-
+        if unFollowUser.status_code != 200:
+            print "[" + str(unFollowUser.status_code) + "]" + "failed to unfollow " + user_to_unfollow + " :("
+        else:
+            print user_to_unfollow + " unfollowed!"
+            
+            
+            
+def get_user_list(file_path):
+    try:
+        user_file = open(file_path, 'r')
+    except IOError:
+        print 'Error opening file ' + file_path
+        return None
+    # Split all lines
+    user_list = user_file.read().split('\n')
+    # Remove all empty strings
+    user_list = [user for user in user_list if user != '']
+    return user_list
+    
+    
+    
     
 # How to follow someone:
 # Be logged on to your account, with all the cookies in a session
