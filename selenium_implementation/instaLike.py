@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 class instaLike:
     def __init__(self):
         self.instagramBrowser = webdriver.Firefox()
-        self.instagramBrowser.get("http://www.instagram.com/")
+        self.instagramBrowser.get("https://www.instagram.com/accounts/login/?force_classic_login")
         assert "Instagram" in self.instagramBrowser.title	# Make sure it loaded instagram correctly
     
     def logIn(self, user, password):
@@ -18,21 +18,6 @@ class instaLike:
     # Check if logged in already
         if self.isLoggedIn():
             return self.Success
-        
-    # If already logged in and just need to confirm
-        try:
-            self.logInElem = self.instagramBrowser.find_element_by_partial_link_text("Log in as")
-            self.logInElem.click()
-            return self.Success
-        except NoSuchElementException:
-            pass
-        
-    # If needed, click on the log in button
-        try:
-            self.logInElem = self.instagramBrowser.find_element_by_link_text("Log in")
-            self.logInElem.click()
-        except NoSuchElementException:
-            pass
         
     # Try to log in using username and password
         try:

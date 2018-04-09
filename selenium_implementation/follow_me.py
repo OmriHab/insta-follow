@@ -11,7 +11,7 @@ def main():
     instaFollower = instaLike()
     instaFollower.logIn(user, password)
     user_to_follow = raw_input("Enter user to follow: ")
-    if instaFollower.follow(user_to_follow) == 1:
+    if instaFollower.follow(user_to_follow) == True:
         print user_to_follow + " followed!"
     else:
         print "Error following or already followed"
